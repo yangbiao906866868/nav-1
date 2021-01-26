@@ -24,16 +24,28 @@ img {
 }
 
 /* style */
-boby {
-  background: #eee;
-}
+boby {background: #eee;}
 
+.light .icon{
+  width: 60%;
+  height: 60%;
+  display: flex;
+  margin: -10px auto -70px auto;
+}
+@media (min-width: 500px) {
+  .light .icon{
+    width: 20%;
+    height: 20%;
+    display: flex;
+    margin: 30px auto -3% auto;
+  }
+}
 .globalHeader {
-  margin: 20px;
+  margin: 40px;
 }
 @media (min-width: 500px) {
   .globalHeader {
-    margin: 60px 0 100px;
+    margin: 0px 0 100px;
   }
 }
 
@@ -87,6 +99,7 @@ boby {
     margin-right: 0;
     margin-left: -25px;
     justify-content: flex-start;
+
   }
 }
 
@@ -99,16 +112,16 @@ boby {
   }
 }
 .siteList .site {
-  width: 160px;
+  width: 156px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   background: white;
   border: 1px solid #dddddd;
-  border-radius: 4px;
+  border-radius: 10px;
   padding: 20px 0;
-   position: relative;
+  position: relative;
   cursor: pointer;
 }
 .siteList .site > .logo {
@@ -136,13 +149,13 @@ display: block;
 .siteList .addButton {
   border: 1px solid #dddddd;
   background: white;
-  width: 160px;
+  width: 156px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 20px 0;
-  border-radius: 4px;
+  border-radius: 10px;
 }
 .siteList .addButton .icon {
   width: 56px;
@@ -162,4 +175,4 @@ display: block;
 }
 
 
-/*# sourceMappingURL=style.24cf7f19.css.map */
+/*# sourceMappingURL=style.d768b7ba.css.map */
